@@ -22,6 +22,7 @@ from sklearn.metrics import accuracy_score,plot_confusion_matrix
 
 def main():
     
+    st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title('Iris Species Classifier By Priyang Bhatt')
     st.sidebar.title('App Sidebar')
     st.markdown('Which species are you?🌸')
