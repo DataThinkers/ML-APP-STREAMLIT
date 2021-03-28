@@ -19,12 +19,13 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
 from sklearn.metrics import accuracy_score,plot_confusion_matrix
+st.markdown('<style>body{background-color: Blue;}</style>',unsafe_allow_html=True)
 
 def main():
     
     st.set_option('deprecation.showPyplotGlobalUse', False)
     st.title('Iris Species Classifier By Priyang Bhatt')
-    st.sidebar.title('App Sidebar')
+    st.sidebar.title('Iris Web App : Select Option(s)')
     st.markdown('Which species are you?🌸')
     
     @st.cache
